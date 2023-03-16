@@ -54,7 +54,6 @@ const ExperienceCard: FC<{ data: any }> = ({ data }) => {
 const Experience = () => {
   return (
     <>
-      <div className="exp-bg-garident w-full h-full absolute -z-10 top-0 left-0 bottom-0 right-0" />
       <motion.div variants={textVariant(0)}>
         <p className={styles.sectionSubText}>My Works</p>
         <h2 className={styles.sectionHeadText}>Experience</h2>

@@ -108,15 +108,11 @@
 }
 
 .about-bg-garident {
-  background-image: linear-gradient(to bottom, #FF3CAC 0%, #784BA0 50%, #330867 100%);
-  background-image: -webkit-linear-gradient(to bottom, #FF3CAC 0%, #784BA0 50%, #330867 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(20, 16, 36, 1) 50%, rgba(0, 212, 255, 1) 100%);
+  background-image: -webkit-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(20, 16, 36, 1) 50%, rgba(0, 212, 255, 1) 100%);
 }
 
-.exp-bg-garident {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-  background-image: -webkit-linear-gradient(to top, #30cfd0 0%, #330867 100%);
-
-}
 
 /* canvas- styles */
 .canvas-loader {

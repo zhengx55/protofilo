@@ -14,8 +14,15 @@ const Contact = () => {
   });
   const formRef = useRef<HTMLFormElement>(null);
   const [loading, setLoading] = useState(false);
-  const handleChange = (e) => {};
-  const handleSubmit = (e) => {};
+  const handleChange = (e: React.SyntheticEvent) => {
+    const { name, value } = e.target as HTMLInputElement;
+    setForm({ ...form, [name]: value });
+  };
+  const handleSubmit = (e: React.SyntheticEvent) => {
+    e.preventDefault();
+    // setLoading(true);
+    // emailjs.send();
+  };
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div

@@ -38,7 +38,6 @@ const ServiceCard: FC<{ index: number; title: string; icon: string }> = ({
 const About = () => {
   return (
     <>
-      <div className="about-bg-garident w-full h-full absolute -z-10 top-0 left-0 bottom-0 right-0" />
       <motion.div variants={textVariant(0)}>
         <p className={styles.sectionSubText}>Introudction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
