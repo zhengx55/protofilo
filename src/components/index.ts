@@ -8,6 +8,7 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 
+
 export {
   Hero,
   Navbar,
@@ -18,8 +19,4 @@ export {
   Feedbacks,
   Contact,
   CanvasLoader,
-  //   EarthCanvas,
-  //   BallCanvas,
-  //   ComputersCanvas,
-  //   StarsCanvas,
 };
