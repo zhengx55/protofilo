@@ -37,7 +37,14 @@ const ExperienceCard: FC<{ data: any }> = ({ data }) => {
       </div>
       <ul className="mt-5 list-disc ml-5 space-y-2">
         {data.points.map((point: string, index: number) => {
-          return <li className="text-white-100 text-[14px] pl-1 tracking-wider" key={`experience-${index}`}>{point}</li>;
+          return (
+            <li
+              className="text-white-100 text-[14px] pl-1 tracking-wider"
+              key={`experience-${index}`}
+            >
+              {point}
+            </li>
+          );
         })}
       </ul>
     </VerticalTimelineElement>
@@ -47,6 +54,7 @@ const ExperienceCard: FC<{ data: any }> = ({ data }) => {
 const Experience = () => {
   return (
     <>
+      <div className="exp-bg-garident w-full h-full absolute -z-10 top-0 left-0 bottom-0 right-0" />
       <motion.div variants={textVariant(0)}>
         <p className={styles.sectionSubText}>My Works</p>
         <h2 className={styles.sectionHeadText}>Experience</h2>

@@ -98,7 +98,7 @@ const Ball = (props: { imgUrl: string }) => {
         <meshStandardMaterial
           color="#fff8eb"
           polygonOffset
-          polygonOffsetFactor={-5}
+          polygonOffsetFactor={-1}
           flatShading
         />
         <Decal

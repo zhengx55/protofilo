@@ -107,6 +107,17 @@
   -webkit-text-fill-color: transparent;
 }
 
+.about-bg-garident {
+  background-image: linear-gradient(to bottom, #FF3CAC 0%, #784BA0 50%, #330867 100%);
+  background-image: -webkit-linear-gradient(to bottom, #FF3CAC 0%, #784BA0 50%, #330867 100%);
+}
+
+.exp-bg-garident {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-image: -webkit-linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
